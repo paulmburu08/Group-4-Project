@@ -7,8 +7,16 @@
 }
 
 body {
-  background-color: gray;
+  background-color: black;
   color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+.h-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  color: rgba(163, 39, 39, 0.7);
+  margin-top: 20px;
 }
 
 /* Slideshow container */
@@ -126,4 +134,34 @@ body {
 
 #container-links {
   align-content: center;
+}
+
+.card1{
+  background-color: rgba(255, 0, 0, 0.150);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.card2{
+  background-color: rgba(255, 0, 0, 0.150);
+  text-align: center;
+  margin-top: 70px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+/*Donation form styling*/
+
+#mc_embed_signup{
+  background-color: rgba(255, 0, 0, 0.150);
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#approvalDenial{
+  display: none;
+  text-align: center;
 }
